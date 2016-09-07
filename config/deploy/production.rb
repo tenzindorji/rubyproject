@@ -59,3 +59,4 @@
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
+server '54.68.30.201', user: 'rubyproject', roles: %w{web app db}
